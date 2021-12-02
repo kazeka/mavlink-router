@@ -69,6 +69,12 @@
 #       defining if flow control should be enabled
 #       Default: false
 #
+#   Filter
+#       Comma separated list of message IDs to drop at this endpoint
+#       No default value. All message IDs will be accepted, when not
+#       specified.
+#
+#
 #
 # Section [UdpEndpoint]: This section must have a name
 #
