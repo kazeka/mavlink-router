@@ -5,7 +5,7 @@ project(
         license: 'Apache 2.0',
         default_options: [
                 'cpp_std=gnu++11',
-                'prefix=/usr',
+                'prefix=/usr/local',
                 'warning_level=2',
                 'buildtype=debugoptimized',
         ],

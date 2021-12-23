@@ -1,5 +1,6 @@
 [Unit]
 Description=MAVLink Router
+Wants=mavlink_util.service
 
 [Service]
 Type=simple
