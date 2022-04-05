@@ -4,7 +4,7 @@ Wants=mavlink_util.service
 
 [Service]
 Type=simple
-ExecStart=@BINDIR@/mavlink-routerd
+ExecStart=@BINDIR@/mavlink-routerd -d /data/etc/companion/mavlink-router/
 Restart=on-failure
 
 [Install]
